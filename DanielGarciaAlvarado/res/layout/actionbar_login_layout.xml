@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Sobreescribimos el estilo de la barra de la activity de lista de clientes para dar una mejor experiencia de usuario -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:layout_gravity="center"
+android:background="#16a085"
+android:orientation="vertical" >
+
+<TextView
+    android:id="@+id/apptitle"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true"
+    android:fontFamily="sans-serif"
+    android:textSize="22sp"
+    android:textColor="#fff"
+    android:layout_gravity="center_horizontal|center_vertical"
+    android:gravity="center_horizontal|center_vertical"
+    android:text="@string/act_log_title" />
+</RelativeLayout>

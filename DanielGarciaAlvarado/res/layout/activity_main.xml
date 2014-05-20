@@ -1,0 +1,71 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:whatever="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- Usamos los EditText de la libraría de validación, de este modo podemos definir las reglas de validación del formulario 
+    	y los diálogos de mensaje
+    -->
+    
+    <!-- El campo de usuario  permite solo caracteres del alfabeto -->
+    <com.andreabaccega.widget.FormEditText
+        whatever:testType="alpha"
+        android:id="@+id/act_log_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:fontFamily="sans-serif-thin"
+        android:textSize="18sp"
+        android:hint="@string/act_log_hint_user"
+        android:inputType="text"
+        android:imeOptions="actionNext"/>
+    
+    <!-- El campo de contraseña permite caracteres tanto alfabéticos como números -->
+    <com.andreabaccega.widget.FormEditText
+        whatever:testType="alphaNumeric"
+        android:id="@+id/act_log_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:inputType="textPassword"
+        android:fontFamily="sans-serif-thin"
+        android:textSize="18sp"
+        android:hint="@string/act_log_hint_password"
+        android:imeOptions="actionDone"/>
+    <Button 
+        android:id="@+id/act_log_button_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:fontFamily="sans-serif-bold"
+        android:textSize="22sp"
+        android:textColor="#fff"
+        android:background="@drawable/act_login_button_login_style"
+        android:text="@string/act_log_login_text"/>
+	<Button 
+	    android:id="@+id/act_log_button_forgott"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="0dp"
+	    android:layout_marginLeft="30dp"
+	    android:layout_marginRight="30dp"
+	    android:fontFamily="sans-serif-bold"
+	    android:textSize="15sp"
+	    android:textColor="#16a085"
+	    android:gravity="center"
+	    android:text="@string/act_log_forgot_text"
+	    android:background="@android:color/transparent"/>
+
+</LinearLayout>

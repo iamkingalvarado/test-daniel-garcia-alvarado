@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="login_button_on">#FF7F2A</color>
+    <color name="login_button_off">#c83737</color>
+    <color name="register_button_background">#1abc9c</color>
+    <color name="register_button_shape">#16a085</color>
+</resources>

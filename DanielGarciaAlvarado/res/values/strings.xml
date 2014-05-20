@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Se definen las cadenas de la aplicación  -->
+    <string name="app_name">Daniel García Alvarado</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+	<string name="act_log_hint_user">Nombre de usuario</string>
+	<string name="act_log_hint_password">Contraseña</string>
+	<string name="act_log_forgot_text">¿Olvidaste tu contraseña?</string>
+	<string name="act_log_login_text">Entrar</string>
+	<string name="act_log_title">Iniciar sesión</string>
+	<string name="act_clients_title">Lista de clientes</string>
+	<string name="no_internet">No hay conexión a internet, favor de intentar más tarde</string>
+	<string name="webservice_clients">http://www.daylinet.com/Evaluacion/json/clientes</string>
+	<string name="server_error">Error en el servidor, favor intentar más tarde</string>
+</resources>

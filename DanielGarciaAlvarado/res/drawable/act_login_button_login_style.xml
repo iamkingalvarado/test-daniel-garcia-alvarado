@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- XML correspondiente al estilo del boton de login y la asignacion de estilos de acuerdo a su estado -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/act_login_button_login_on" android:state_pressed="true"></item>
+    <item android:drawable="@drawable/act_login_button_login_off"></item>
+</selector>
