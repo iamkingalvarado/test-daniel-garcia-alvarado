@@ -18,8 +18,8 @@ Aplicación de prueba para entrar en Daylinet
 
 #Snapshots
 
-[Snap1](snapshots/snap1.png)
-[Snap1](snapshots/snap2.png)
+[!Snap1](https://raw.githubusercontent.com/danigarciaalva/test-daniel-garcia-alvarado/master/snapshots/snap1.png)
+[!Snap1](https://raw.githubusercontent.com/danigarciaalva/test-daniel-garcia-alvarado/master/snapshots/snap2.png)
 
 #Acerca del desarrollador
 
